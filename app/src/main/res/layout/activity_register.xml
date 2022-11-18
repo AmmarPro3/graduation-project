@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:gravity="center_horizontal"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Register"
+        android:textColor="#172A87"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/registerWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/usernameReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Username"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/usernameRegInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:hint="Please enter your username"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/emailReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/emailRegInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:hint="Please enter your email address"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/passwordReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/passwordRegInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:hint="Please enter your password"
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/confirmPassReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Password Confirmation"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/confirmPassRegInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:hint="Please Re-enter your password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerBtn1"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/blue_btn"
+        android:text="register"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+    <ProgressBar
+        android:id="@+id/registerBtnPB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/alreadyHaveAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="#172A87" />
+</LinearLayout>

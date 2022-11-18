@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ABCPro</string>
+    <string name="open_nav">Open Menu</string>
+    <string name="close_nav">Close Menu</string>
+    <string name="about">This application was developed by Quadratic Team, the idea was </string>
+</resources>

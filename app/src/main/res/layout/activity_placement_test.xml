@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".PlacementTest">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Placement Test"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/placementQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:lineSpacingExtra="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/placementAns1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/placementAns2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/placementAns3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/placementAns4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <TextView
+        android:id="@+id/nextWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextQ"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="3dp"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>
