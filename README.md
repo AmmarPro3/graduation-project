@@ -1,4 +1,5 @@
 # graduation-project
+## Overview
 This is my graduation project. It is an Android application. The application will help the user to learn English. In this project, I worked with a team of three to develop
 an application that can: 
 * can connect to a database
